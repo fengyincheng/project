@@ -278,7 +278,7 @@ print(len_t1)
 
 """
 
-# 字典的基本操作
+#     #字典的基本操作
 # my_dict = {
 #     "小白":{"级别":1,"工资":3000},
 #     "小黑":{"级别":2,"工资":4000},
@@ -291,8 +291,9 @@ print(len_t1)
 #         my_dict[key]["工资"] += 1000
 #         x = my_dict 
 # print(f"曾经{my_dict}现在是{x}")
+# #字典的删除
 
-"""
+
 def compose(f,g):
     def h(x):
         return f(g(x))
@@ -301,9 +302,9 @@ def compose(f,g):
 g = lambda x: x + 6
 f = lambda g: g * 2
 
-print ( compose(f,g)(1))
+print ( compose(f,g)(2))
 
-""" 
+
 
 
 # with open(r"C:/Users/Lenovo/Desktop/测试.txt", "r", encoding="utf-8") as x:
@@ -318,8 +319,10 @@ print ( compose(f,g)(1))
 # print("wwww")
 
 
-
+"""
 import my_mod
 print(my_mod.my_mod(10,2))
+
+"""
 
 
