@@ -7,7 +7,7 @@ with open("E:\疫情.txt","r+",encoding="utf_8") as flie:
     for province_data in province_data_list:
         province_name = province_data['name']
         province_confirm = province_data['total']['confirm']
-        if province_data['name'] in ['北京', '上海','重庆','天津']:
+        if province_data['name'] in ['北京', '上海','重庆','天津']:  #这边创了一个新列表，in用于检查元素是否在列表中
             province_name = f"{province_data['name']}市"
         elif province_data['name'] in ['西藏','内蒙古']:
             province_name = f"{province_data['name']}自治区"
