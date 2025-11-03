@@ -33,3 +33,5 @@ timeline.add_schema(
 )
 timeline.render("高阶柱状图的绘制.html")
 
+#废案啊，让ai给我改个代码没忍住一下子全改了，没办法我又不知道为啥一直报错，不知道以后有没有闲情雅致重搞
+
